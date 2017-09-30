@@ -6,8 +6,7 @@
         por tipo de comida
         recomendações
         
---> fundo de toalha
-
+--> imagem de fundo
 --> Pratos
         parallax com o prato
         nome

@@ -6,7 +6,7 @@
         por tipo de comida
         recomendações
         
---> fundo de toalha
+--> imagem de fundo
 
 --> posts
         Bolha com tex e imagem principal

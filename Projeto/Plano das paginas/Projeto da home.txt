@@ -7,7 +7,7 @@
             Nome da pagina
             foto da chefe
             
---> fundo de toalha
+--> imagem de fundo
         
 --> ultimas noticias categorizadas
         noticia principal/mais recente em quadros com fotos de fundo
