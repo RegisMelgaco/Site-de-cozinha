@@ -1,4 +1,4 @@
-.parallax { 
+.parallax-principal { 
     background-image: url("imagens/Background.jpg");
 
     height: 100%; 
@@ -11,11 +11,6 @@
 
 #logo-rodape {
     width: 4em;
-}
-
-.navbar {
-    width: calc(100% - 1em);
-    margin: 0.5em auto;
 }
 
 #footer-da-pagina {

@@ -1,0 +1,18 @@
+.parallax-capa { 
+    background-image: url(imagens/Capa.jpg);
+
+    height: 60em; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    font-size: 6em;
+    padding: 2em;
+    color: aliceblue;
+    font-family: cursive;
+    text-shadow: 1px 1px gray;
+}
