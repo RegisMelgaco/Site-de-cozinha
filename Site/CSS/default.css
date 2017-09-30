@@ -9,11 +9,37 @@
     background-size: cover;
 }
 
-.marca {
-    definir estilo depois
+#logo-rodape {
+    width: 4em;
 }
 
 .navbar {
     width: calc(100% - 1em);
     margin: 0.5em auto;
+}
+
+#footer-da-pagina {
+    background-color: #fff2ff;
+}
+
+p {
+    padding: 2em;
+}
+
+.well-rodape {
+    margin: 2em;
+    display: inline-block;
+    border: dashed 5px deeppink;
+}
+
+#titulo-rodape {
+    margin: 1.5em 2.5em 2em;
+}
+
+.rosa {
+    color:deeppink;
+}
+
+.verde {
+    color: green;
 }
