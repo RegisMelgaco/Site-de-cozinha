@@ -7,6 +7,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 #logo-rodape {
@@ -17,7 +19,11 @@
     background-color: #fff2ff;
 }
 
-p {
+.bolha {
+    background-color: #ff3333;
+    border-radius: 25px;
+    color: aliceblue;
+    margin: 2em;
     padding: 2em;
 }
 
@@ -38,8 +44,16 @@ p {
     color: green;
 }
 
+.sombra {
+    text-shadow: 1px 1px gray;
+}
+
 #maps {
     border: dashed 5px deeppink;
     display: inline-block;
     border-radius: 5px;
+}
+
+.img-responsive {
+    height: inherit;
 }
