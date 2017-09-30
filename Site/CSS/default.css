@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .parallax-principal { 
     background-image: url("imagens/Background.jpg");
 
