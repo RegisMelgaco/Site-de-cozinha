@@ -1,0 +1,73 @@
+Este é uma Buyer Persona ficticio, por não ser possivel fazer uma pesquisa ou questionario com clientes.
+
+1- Qual o seu sexo?
+F
+
+2- Qual a sua idade?
+32
+
+3- Qual a sua renda familiar mensal?
+mais de 10.000
+
+4- Qual seu estado civil?
+casada
+
+5- Em que tipo de residência você mora?
+apartamento
+
+6- Como é a área em que você mora?
+area urbana
+
+7- Quantas pessoas moram na sua residência?
+eu e mais 3
+
+8- Com quem você mora atualmente?
+esposo e filhos
+
+9- Qual o seu nível de escolaridade?
+pos-graduada
+
+10- Qual das opções abaixo melhor se encaixam com o seu momento profissional atual?
+dona de empresa
+
+11- Pensando no seu trabalho atual, você está:
+Não estou insatisfeito nem satisfeito
+
+12- Qual o ramo de atividade da sua empresa?
+RH e admin
+
+13- Quais dos veículos de comunicação abaixo você costuma consumir frequentemente? Marque quantos quiser.
+Rádio, TV a cabo e internet
+
+14- Quais das redes sociais abaixo você costuma acessar frequentemente? Marque quantas quiser
+facebook, intagram e pinterest
+
+15- Que tipo de conteúdo mais te atrai na mídia?
+Cultura, Entretenimento, politica, saude, negocios e gastronomia
+
+16- Todo mundo costuma traçar planos e metas para as suas vidas. Pensando nos próximos 5 anos, qual dos objetivos abaixo você pretende ter cumprido? Marque quantas alternativas quiser.
+trocar de carro e viajar pra fora do pais
+
+17- Qual o seu maior sonho?
+ver minha empresa grande
+
+18- Qual o seu maior medo?
+que algo ruim aconteça com meus filhos
+
+19- Quando foi a última vez que você realizou uma compra pela internet?
+há mais de 3 meses
+
+20- O que você costuma fazer nas suas horas livres? Marque quantas alternativas quiser.
+cinema, bar e restaurantes, acessar a internet e viajar
+
+21- Pensando em uma escala de 1 a 5, em que 1 significa “nem um pouco” e 5 significa “muito”, o quanto você cuida da sua saúde?
+5
+
+22- Pensando em uma escala de 1 a 5, sendo 1 “nada saudável” e 5 “muito saudável”, como é a sua alimentação?
+4
+
+23- Você costuma praticar esportes?
+pelo menos 3 vezes na semana
+
+24- Quais esportes você pratica?
+caminhada
