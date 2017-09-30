@@ -1,0 +1,6 @@
+Cliente:
+	Cozinheira e micro empresária que quer ter um melhor veiculo de expor seus produtos e em um futuro fazer vendas por ele
+Produto:
+	Comida cazeira e sofisticada voltada para festas
+Marca:
+	Grande parte da identidade do negócio é a confecção de comida sofisticada com amor de mãe
