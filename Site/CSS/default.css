@@ -12,3 +12,8 @@
 .marca {
     definir estilo depois
 }
+
+.navbar {
+    width: calc(100% - 1em);
+    margin: 0.5em auto;
+}
