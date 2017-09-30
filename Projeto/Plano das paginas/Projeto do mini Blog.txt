@@ -1,0 +1,19 @@
+--> barra de navegação fixa
+        navegação pelo site cardapio, blog e como pedir
+        barra de pesquisa
+        
+--> Barra movel com secções
+        por tipo de comida
+        recomendações
+        
+--> fundo de toalha
+
+--> posts
+        Bolha com tex e imagem principal
+        nome
+        breve descrição
+        botão de informações nutricionais
+
+--> rodapé
+        mapa com localização
+        contatos rapidos
