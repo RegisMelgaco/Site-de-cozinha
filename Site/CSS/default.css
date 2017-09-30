@@ -27,9 +27,8 @@ p {
 }
 
 .well-rodape {
-    margin: 2em;
-    display: inline-block;
     border: dashed 5px deeppink;
+    margin: auto;
 }
 
 #titulo-rodape {
@@ -42,4 +41,10 @@ p {
 
 .verde {
     color: green;
+}
+
+#maps {
+    border: dashed 5px deeppink;
+    display: inline-block;
+    border-radius: 5px;
 }

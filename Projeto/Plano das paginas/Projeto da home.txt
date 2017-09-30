@@ -13,6 +13,8 @@
         noticia principal/mais recente em quadros com fotos de fundo
         noticias de blog
         noticias do serviço
+        
+--> recomendação da semana
 
 --> rodapé
         mapa com localização
