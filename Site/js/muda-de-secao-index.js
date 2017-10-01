@@ -1,7 +1,7 @@
 $("#btn-pratos-novos").click(function(){
-    $("#btn-pratos-novos").addClass("btn-primary");
-    $("#btn-recomendacao").removeClass("btn-primary");
-    $("#btn-promocoes").removeClass("btn-primary");
+    $("#btn-pratos-novos").addClass("btn-danger");
+    $("#btn-recomendacao").removeClass("btn-danger");
+    $("#btn-promocoes").removeClass("btn-danger");
     
     var x = $(window).scrollTop();
     
@@ -13,9 +13,9 @@ $("#btn-pratos-novos").click(function(){
 });
 
 $("#btn-recomendacao").click(function(){
-    $("#btn-pratos-novos").removeClass("btn-primary");
-    $("#btn-recomendacao").addClass("btn-primary");
-    $("#btn-promocoes").removeClass("btn-primary");
+    $("#btn-pratos-novos").removeClass("btn-danger");
+    $("#btn-recomendacao").addClass("btn-danger");
+    $("#btn-promocoes").removeClass("btn-danger");
     
     var x = $(window).scrollTop();
     
@@ -27,9 +27,9 @@ $("#btn-recomendacao").click(function(){
 });
 
 $("#btn-promocoes").click(function(){
-    $("#btn-pratos-novos").removeClass("btn-primary");
-    $("#btn-recomendacao").removeClass("btn-primary");
-    $("#btn-promocoes").addClass("btn-primary");
+    $("#btn-pratos-novos").removeClass("btn-danger");
+    $("#btn-recomendacao").removeClass("btn-danger");
+    $("#btn-promocoes").addClass("btn-danger");
     
     var x = $(window).scrollTop();
     
