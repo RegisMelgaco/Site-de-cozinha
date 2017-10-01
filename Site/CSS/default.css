@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 .parallax-principal { 
@@ -27,17 +28,17 @@ body {
     background-color: #ff3333;
     border-radius: 25px;
     color: aliceblue;
-    margin: 2em;
+    margin: 2em 0;
     padding: 2em;
 }
 
 .well-rodape {
-    border: dashed 5px deeppink;
+    border: solid 2px deeppink;
     margin: auto;
 }
 
-#titulo-rodape {
-    margin: 1.5em 2.5em 2em;
+.titulo-rodape {
+    margin: 1em 2.5em;
 }
 
 .rosa {
@@ -50,13 +51,6 @@ body {
 
 .sombra {
     text-shadow: 1px 1px gray;
-}
-
-#maps {
-    border: dashed 5px deeppink;
-    display: inline-block;
-    border-radius: 5px;
-    width: 100%;
 }
 
 .img-responsive {

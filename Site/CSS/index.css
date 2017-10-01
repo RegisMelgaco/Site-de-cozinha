@@ -1,7 +1,7 @@
 .parallax-capa { 
     background-image: url(imagens/Capa.jpg);
 
-    height: 50em; 
+    height: 85%; 
 
     background-attachment: fixed;
     background-position: center;
@@ -9,11 +9,9 @@
     background-size: cover;
 }
 
-#titulo {
-    font-size: 6em;
-    padding: 2em;
-    color: aliceblue;
-    font-family: cursive;
+#frase-de-efeito {
+    margin: 5% 2em 3em 1em;
+    width: calc(80% - 5em)
 }
 
 h2 {
