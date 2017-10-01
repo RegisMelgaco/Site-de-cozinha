@@ -13,16 +13,3 @@
     margin: 5% 2em 3em 1em;
     width: calc(80% - 5em)
 }
-
-h2 {
-    color: white;
-    text-shadow: gray 1px 1px;
-    font-size: 3em;
-    background-image: url(imagens/60890_XXX_v4.png);
-    padding: 1em;
-    border: white solid 2px;
-    border-radius: 50% 50% 50% 50%;
-    display:inline-block;
-    box-shadow: 3px 3px gray;
-    margin: auto 1em;
-}
