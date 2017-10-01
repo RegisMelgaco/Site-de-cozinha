@@ -19,9 +19,9 @@ $("#btn-recomendacao").click(function(){
     
     var x = $(window).scrollTop();
     
-    $("#lista-pratos-novos").removeClass("some");
-    $("#lista-recomendacao").addClass("some");
-    $("#lista-promocoes").removeClass("some");
+    $("#lista-pratos-novos").addClass("some");
+    $("#lista-recomendacao").removeClass("some");
+    $("#lista-promocoes").addClass("some");
     
     window.scrollTo(0, x);
 });
