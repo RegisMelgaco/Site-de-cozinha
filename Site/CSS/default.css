@@ -34,7 +34,7 @@ body {
 
 .well-rodape {
     border: solid 2px deeppink;
-    margin: auto;
+    margin: 2em auto;
 }
 
 .titulo-rodape {
@@ -55,4 +55,12 @@ body {
 
 .img-responsive {
     height: inherit;
+}
+
+.some {
+    display: none;
+}
+
+.img-responsiva {
+    width: 100%;
 }

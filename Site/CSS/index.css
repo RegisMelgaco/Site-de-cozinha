@@ -18,10 +18,11 @@ h2 {
     color: white;
     text-shadow: gray 1px 1px;
     font-size: 3em;
-    background-image: url(imagens/60890_XXX_v4.jpg);
+    background-image: url(imagens/60890_XXX_v4.png);
     padding: 1em;
     border: white solid 2px;
     border-radius: 50% 50% 50% 50%;
     display:inline-block;
     box-shadow: 3px 3px gray;
+    margin: auto 1em;
 }
