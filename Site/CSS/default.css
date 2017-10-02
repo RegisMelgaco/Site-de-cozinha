@@ -3,6 +3,12 @@ body {
     height: 100%;
 }
 
+.navbar-static-top {
+	color: aliceblue !important;
+	position: fixed;
+	width: 100%;
+}
+
 .parallax-principal { 
     background-image: url("imagens/Background.jpg");
 
@@ -19,7 +25,7 @@ body {
 }
 
 #footer-da-pagina {
-    background-color: #fff2ff;
+    background-color: #5cb85c;
 }
 
 .bolha {
@@ -35,7 +41,6 @@ body {
 }
 
 .well-rodape {
-    border: solid 2px deeppink;
     margin: 2em auto;
 }
 
@@ -73,10 +78,6 @@ body {
 
 .sombra {
     text-shadow: 1px 1px gray;
-}
-
-.img-responsive {
-    height: inherit;
 }
 
 .some {
