@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="CSS/bootstrap-social-gh-pages/bootstrap-social.css">
     <script src="https://use.fontawesome.com/6a2e1bd4c2.js"></script>
     <link rel="stylesheet" href="CSS/default.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/cardapio.css">
 </head>
 <body>
     <!--Barra fixa no topo-->
+    <div class="parallax-principal">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -26,8 +27,8 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Cardapio</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="disabled"><a href="#">Cardapio</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Como fazer um pedido</a></li>
                 </ul>
@@ -41,123 +42,248 @@
         </div>
     </nav>
     <!--Barra fixa no topo-->
+    <br>
+    <br>
+    <br>
     <main>
-        <div class="parallax-principal">
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-70497.jpeg" alt="comida 2">
+		<div class="row">
+			<div class="col-xs-9 abas-horizontais">
+				<br>
+				<button id="btn-pratos-novos" class="aba disabled btn btn-lg text-center sombra btn-success">Massas</button>
+				<button id="btn-recomendacao" class="aba btn btn-lg text-center sombra btn-primary">Lanches</button>
+				<button id="btn-jantares" class="aba btn btn-lg text-center sombra btn-warning">Jantares</button>
+				<button id="btn-almocos" class="aba btn btn-lg text-center sombra btn-info">Almoços</button>
+				<button id="btn-promocoes" class="aba btn btn-lg text-center sombra btn-danger">Sobremesas</button>
+			</div>
+		</div>
+        <div id="cardapio">
+            <div id="lista-pratos-novos" class="bolha fundo-verde">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <br>
+                        <div class="row bolha">
+                            <div class="col-md-6 col-xs-10">
+                                <br>
+                                <br>
+                                <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-70497.jpeg" alt="comida 2">
+                            </div>
+                            <div class="col-md-5 col-xs-10">
+                                <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                            </div>
                         </div>
-                        <div class="col-md-5 col-xs-10">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row bolha">
+                            <div class="col-md-5 col-md-offset-1">
+                                <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                            </div>
+                            <div class="col-md-6 col-xs-10">
+                                <br>
+                                <br>
+                                <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-376464.jpeg" alt="comida 1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="row bolha">
+                            <div class="col-md-6 col-xs-10">
+                                <br>
+                                <br>
+                                <img class="img-responsive img-thumbnail" src="imagens/pratos/salmon-dish-food-meal-46239.jpeg" alt="comida 3">
+                            </div>
+                            <div class="col-md-5">
+                                <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-5 col-md-offset-1">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+        <!--novos pratos-->
+        <!--recomendacoes-->
+                <div id="lista-recomendacoes" class="some bolha fundo-azul">
+                    <div class="row">
+                        <br>
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-262959.jpeg" alt="comida 3">
+                                </div>
+                                <div class="col-md-5">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-376464.jpeg" alt="comida 1">
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-461198.jpeg" alt="comida 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--recomendacoes-->
+        <!--promoções-->
+                <div id="lista-promocoes" class="some fundo-vermelho bolha">
+                    <div class="row">
+                        <br>
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/food-dinner-pasta-spaghetti-8500.jpg" alt="comida 2">
+                                </div>
+                                <div class="col-md-5 col-xs-10">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/bbq-dinner-grilled-grill-72160.jpeg" alt="comida 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-106343.jpeg" alt="comida 3">
+                                </div>
+                                <div class="col-md-5">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+		<!--promoções-->
+		<!--jantares-->
+                <div id="lista-jantares" class="some fundo-amarelo bolha">
+                    <div class="row">
+                        <br>
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/muffin.jpg" alt="comida 2">
+                                </div>
+                                <div class="col-md-5 col-xs-10">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-61127.jpeg" alt="comida 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-62097.jpeg" alt="comida 3">
+                                </div>
+                                <div class="col-md-5">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!--jantares-->
+     			<!--almoçoes-->
+                <div id="lista-almocos" class="some fundo-azul-claro bolha">
+                    <div class="row">
+                        <br>
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-132694.jpeg" alt="comida 2">
+                                </div>
+                                <div class="col-md-5 col-xs-10">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-5 col-md-offset-1">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-372851.jpeg" alt="comida 1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row bolha">
+                                <div class="col-md-6 col-xs-10">
+                                    <img class="img-responsive img-thumbnail" src="imagens/pratos/vegetables-italian-pizza-restaurant.jpg" alt="comida 3">
+                                </div>
+                                <div class="col-md-5">
+                                    <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
+                                    <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
+                                    <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/salmon-dish-food-meal-46239.jpeg" alt="comida 3">
-                        </div>
-                        <div class="col-md-5">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--novos pratos-->
-            <!--recomendacoes-->
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-262959.jpeg" alt="comida 3">
-                        </div>
-                        <div class="col-md-5">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-5 col-md-offset-1">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-461198.jpeg" alt="comida 1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/food-dinner-pasta-spaghetti-8500.jpg" alt="comida 2">
-                        </div>
-                        <div class="col-md-5 col-xs-10">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-5 col-md-offset-1">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/bbq-dinner-grilled-grill-72160.jpeg" alt="comida 1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                    <div class="row bolha">
-                        <div class="col-md-6 col-xs-10">
-                            <img class="img-responsive img-thumbnail" src="imagens/pratos/pexels-photo-106343.jpeg" alt="comida 3">
-                        </div>
-                        <div class="col-md-5">
-                            <p>Lorem ipsum bibendum posuere accumsan venenatis fringilla sagittis erat ut lobortis ullamcorper ultricies himenaeos, donec tempus suspendisse venenatis eros neque consequat eros a malesuada class sagittis. erat phasellus ullamcorper volutpat primis mattis neque sodales, imperdiet eleifend netus nec pretium sapien integer lectus, ultricies suspendisse cubilia habitant vitae arcu. leo vel pretium curae ullamcorper lorem ultricies sodales nullam, mattis pharetra senectus primis risus eu imperdiet neque est, pellentesque facilisis viverra quis torquent duis quis. mattis inceptos euismod nisi lobortis accumsan cubilia sagittis, et blandit gravida massa varius etiam tortor, augue venenatis ornare cras vitae aenean. </p>
-                            <p>Dictum et tortor sodales blandit at lobortis fermentum aenean, interdum nisl elit tempor malesuada velit faucibus. viverra fringilla metus vestibulum leo cubilia eget integer malesuada, porttitor non ut eu quam odio elit, litora egestas duis suspendisse risus venenatis lobortis. lacinia laoreet conubia ut leo semper tellus sodales, euismod venenatis vivamus erat tortor at cras donec, elementum sem nec eleifend risus sociosqu accumsan, aliquam lacinia per class cubilia orci. ad porttitor laoreet inceptos aliquam blandit pharetra varius lacinia interdum accumsan, viverra mauris torquent diam augue libero condimentum quisque tortor nullam, phasellus auctor ante bibendum at donec posuere auctor feugiat. </p>
-                            <p>Tincidunt aenean hendrerit magna quisque, imperdiet rhoncus varius. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
     <!--Footer-->
     <footer id="footer-da-pagina">
@@ -203,3 +329,4 @@
         </div>
     </footer>
 </body>
+<script src="js/muda-de-secao-index.js"></script>

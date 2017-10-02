@@ -32,7 +32,6 @@ body {
 .aba {
 	border-radius: 5px 5px 0 0;
 	position: relative;
-	top: 3px;
 }
 
 .well-rodape {
@@ -62,6 +61,14 @@ body {
 
 .fundo-azul {
 	background-color: #337ab7;
+}
+
+.fundo-amarelo {
+	background-color: #f0ad4e;
+}
+
+.fundo-azul-claro {
+	background-color: #5bc0de;
 }
 
 .sombra {

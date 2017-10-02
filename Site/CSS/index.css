@@ -9,6 +9,10 @@
     background-size: cover;
 }
 
+.aba {
+	top: 3px;
+}
+
 #frase-de-efeito {
     margin: 5% 2em 3em 1em;
     width: calc(80% - 5em)

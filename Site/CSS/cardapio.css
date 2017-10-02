@@ -1,0 +1,19 @@
+.navbar-static-top {
+	position: fixed;
+	width: 100%;
+}
+
+#cardapio {
+	width: 85%;
+	margin: 0 5% 10% 3em;
+	z-index: 100;
+}
+
+.abas-horizontais {
+	margin-top: 3em;
+	z-index: 0;
+	left: calc(90% + 2em);
+	top: 6em;
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
